@@ -1,0 +1,20 @@
+# Python
+venv/
+__pycache__/
+*.pyc 
+
+#Terraform state files
+*.tfstate
+*.tfstate.backup
+crash.log
+
+
+# Docker
+*.env
+
+
+#VS Code
+.vscode/
+
+#System files
+.DS_Stores
