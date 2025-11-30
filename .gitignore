@@ -5,6 +5,7 @@ __pycache__/
 
 #Terraform state files
 *.tfstate
+*.tfvars
 *.tfstate.backup
 .terraform/
 crash.log
