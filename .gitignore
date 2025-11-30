@@ -18,4 +18,5 @@ crash.log
 .vscode/
 
 #System files
-.DS_Stores
+.DS_Stores.terraform/
+.terraform/
