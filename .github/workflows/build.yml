@@ -25,6 +25,7 @@ jobs:
             password: ${{secrets.DOCKER_PASSWORD}}
 
         - name: Build Docker Image and Push
-          run: docker build -t jdm0521/hello-api:latest ./app
+          run: |
+               docker build -t jdm0521/hello-api:latest ./app
                docker push jdm0521/hello-api:latest  
 
